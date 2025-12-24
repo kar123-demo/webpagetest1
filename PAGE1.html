@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <div >
+         <h1 style="color:rgb(140, 140, 221);">Welcome to Traditional day</h1>
+         <img src="https://th.bing.com/th/id/OIP.KeeYqhw3mvz75k7Me8K14AHaE7?w=108&h=108&c=1&bgcl=8e99e3&r=0&o=7&cb=ucfimg1&pid=ImgRC&rm=3&ucfimg=1" alt="">
+         <p>CVR promotes the holistic development of students by inculcating creative and critical thinking skills through various cultural and extra-curricular activities. CVR has several active clubs for encouraging students to participate in activities such as debate, book-reading, Model United Nations/Youth Parliament, Talks, quizzes, theatrical performances, singing, dancing, painting, movie-making, script-writing, photography, direction, video-editing, and article writing</p>
+         <button onclick="display()">REGISTER</button>
+         <h1 id="output"></h1>
+    </div>
+ <script>
+    function display(){
+        let v=window.prompt("Enter Your Name")
+       document.getElementById("output").textContent=`Thanks for Registration ${v}!`;
+    }
+ </script>
+</body>
+</html>
